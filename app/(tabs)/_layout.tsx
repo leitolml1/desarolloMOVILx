@@ -51,7 +51,7 @@ export default function TabLayout() {
         name="two"
         options={{
           title: 'Galeria',
-          tabBarIcon: ({ color }) => <TabBarIcon name="image" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="image" color={"yellow"} />,
         }}
       />
     </Tabs>

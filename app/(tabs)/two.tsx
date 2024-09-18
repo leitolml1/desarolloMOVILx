@@ -71,15 +71,22 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   container: {
+    justifyContent:"center",
+    alignItems:"center",
     flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
     padding: 10,
   },
   div: {
-    width: '50%',
+    borderRadius:50,
+    width: 500,
+    backgroundColor:"white",
     padding: 5,
     alignItems: 'center',
+    justifyContent:"space-between",
+    marginTop:10,
+    marginRight:10,
   },
   title: {
     fontSize: 20,
@@ -88,8 +95,8 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   imagen: {
-    width: '100%', 
-    height: 150,
+    width: 250, 
+    height: 250,
     borderRadius: 10,
     marginBottom: 5,
   },
