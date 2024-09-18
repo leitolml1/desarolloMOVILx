@@ -70,35 +70,27 @@ export default function TabTwoScreen() {
 }
 
 const styles = StyleSheet.create({
+  title: {
+    color:"white",
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
   container: {
-    justifyContent:"center",
-    alignItems:"center",
+    backgroundColor: "black",
     flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
     padding: 10,
   },
   div: {
-    borderRadius:50,
-    width: 500,
-    backgroundColor:"white",
+    width: '50%',
     padding: 5,
     alignItems: 'center',
-    justifyContent:"space-between",
-    marginTop:10,
-    marginRight:10,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginVertical: 10,
   },
   imagen: {
-    width: 250, 
-    height: 250,
+    width: '100%',
+    height: 200,
     borderRadius: 10,
-    marginBottom: 5,
   },
   descripcion: {
     textAlign: 'center',
